@@ -13,16 +13,16 @@ public class DateTimeTest {
 
 	@Test
 	public void testToString() {
-		DateTime _dateTime = new DateTime(2000, 1, 1, 10, 0, 0);
-		assertEquals(new String("2000-01-01 10:00:00"), _dateTime.toString());
+		DateTime _dateTime = new DateTime(2000, 1, 1, 10, 0);
+		assertEquals(new String("2000-01-01 10:00"), _dateTime.toString());
 		System.out.println(_dateTime.toString());
 //		fail("Not yet implemented");
 	}
 
 	@Test
 	public void testDateTimeString() {
-		DateTime _dateTime = new DateTime(2012, 12, 12, 12, 12, 12);
-		assertEquals(new String("2012-12-12 12:12:12"), _dateTime.toString());
+		DateTime _dateTime = new DateTime(2012, 12, 12, 12, 12);
+		assertEquals(new String("2012-12-12 12:12"), _dateTime.toString());
 		System.out.println(_dateTime.toString());
 //		fail("Not yet implemented");
 	}
